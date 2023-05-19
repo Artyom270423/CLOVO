@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Получить консультацию</title>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}	
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #f2f2f2;
+		}	header {
+		background-color: #333;
+		color: #fff;
+		padding: 20px;
+		text-align: center;
+	}
+
+	h1 {
+		margin-top: 0;
+		font-size: 32px;
+		font-weight: normal;
+	}
+
+	.container {
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-start;
+		margin-top: 50px;
+		padding: 0 20px;
+	}
+
+	.left-container {
+		flex: 1;
+	}
+
+	.right-container {
+		flex: 1;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.text-container {
+		width: 100%;
+		padding: 20px;
+		background-color: #fff;
+		border-radius: 5px;
+		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+	}
+
+	.text-container p {
+		margin: 10px 0;
+		font-size: 18px;
+		line-height: 1.5;
+		text-align: left;
+	}
+
+	.form-container {
+		max-width: 400px;
+		padding: 20px;
+		background-color: #fff;
+		border-radius: 5px;
+		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+	}
+
+	.form-container h2 {
+		font-size: 24px;
+		margin-bottom: 10px;
+	}
+
+	.form-container input,
+	.form-container textarea {
+		width: 100%;
+		margin-bottom: 10px;
+		padding: 10px;
+		border: 1px solid #ccc;
+		border-radius: 3px;
+	}
+
+	.form-container button {
+		background-color: #333;
+		color: #fff;
+		border: none;
+		padding: 10px 20px;
+		border-radius: 3px;
+		cursor: pointer;
+	}
+
+	.form-container button:hover {
+		background-color: #000;
+	}
+	header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.back-button {
+     position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  border: 2px solid #fff;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.back-button:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+</style>
+</head>
+<body>
+	<header>
+		
+		<h1>Получить консультацию</h1>
+    <a href="file:///C:/Users/Artem/Desktop/web/ddd.html" class="back-button">Назад</a>
+	</header>
+	<div class="container">
+		<div class="left-container">
+			<div class="text-container">
+						<p>Консультация - это процесс предоставления информации, рекомендаций и советов клиентам в отношении их автомобилей или автомобильных проблем.</p>
+				<p>Наши опытные специалисты готовы помочь вам с различными вопросами и предоставить качественные консультации.</p>
+				<p>Мы предлагаем консультации по следующим областям:</p>
+			
+					<p>Техническое обслуживание и ремонт автомобил</p>
+			</div>
+		</div>
+		<div class="right-container">
+			<div class="form-container">
+				<h2>Запишитесь на консультацию</h2>
+				<form>
+
+				<input type="text" placeholder="Ваше имя" required>
+				<input type="email" placeholder="Ваш Email" required>
+				<textarea placeholder="Ваш вопрос" rows="5" required></textarea>
+				<button type="submit">Записаться</button>
+			</form>
+		</div>
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Первый блок</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    html, body {
+      height: 100%;
+      width: 100%;
+    }
+    header {
+      display: flex;
+      align-items: center;
+      background-color: #333;
+      height: 100px;
+      padding: 0 20px;
+    }
+    .back-button {
+      color: #fff;
+      text-decoration: none;
+      margin-right: 20px;
+    }
+    .block {
+      height: calc(100% - 100px);
+      background-color: #808080;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      padding: 20px;
+    }
+    .image-box {
+      width: 30%;
+      overflow: hidden;
+      margin-bottom: 20px;
+      position: relative;
+    }
+    .image-box img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+    .text-block {
+      background-color: rgba(255, 255, 255, 0.8);
+      padding: 20px;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+    }
+    .text-block h2 {
+      margin-bottom: 10px;
+    }
+    .back-button {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 20px;
+  border: 2px solid #fff;
+  padding: 10px 20px;
+}
+.header-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  padding-right: 20px;
+  height: 100%;
+  margin-left: auto; 
+  text-align: right; 
+  color: #fff
+}
+
+.header-right h1 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.header-right p {
+  font-size: 14px;
+}
+
+
+  </style>
+</head>
+<body>
+  <header>
+    <a href="file:///C:/Users/Artem/Desktop/web/ddd.html" class="back-button">Назад</a>
+    <div class="header-right">
+  <h1>Телефон: +7 (999) 123-45-67</h1>
+  <p>Адрес: ул. Рандомная, д. 123</p>
+</div>
+  </header>
+  <div class="block">
+    <div class="image-box">
+      <img src="mashina.jpg" alt="Картинка 1">
+      <div class="text-block">
+        <h2>Диагностика и ремонт</h2>
+        <p>Текст блока 1</p>
+      </div>
+    </div>
+    <div class="image-box">
+      <img src="mashina.jpg" alt="Картинка 2">
+      <div class="text-block">
+        <h2>Техническое обслуживание</h2>
+        <p>Текст блока 2</p>
+      </div>
+    </div>
+    <div class="image-box">
+      <img src="mashina.jpg" alt="Картинка 3">
+      <div class="text-block">
+        <h2>Запчасти и моторное масло</h2>
+        <p>Текст блока 3</p>
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>
+
